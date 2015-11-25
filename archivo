@@ -1,0 +1,120 @@
+<!--section id="hello">
+   		<div class="features">
+   			<h3 style="color:white; text-align:center; margin-bottom:4em;">{{Lang::get('messages.indxHelLblCaracteristicas')}}</h3>
+				 
+				 <div class="demo">
+				 	<div class="item">
+			            <ul id="content-slider" class="content-slider">
+			                <li style="width:300px">
+			                    <h4>{{Lang::get('messages.indxHelLblCaracteristica1')}}</h4>
+			                </li>
+			                <li style="width:300px">
+			                    <h4>{{Lang::get('messages.indxHelLblCaracteristica2')}}</h4>
+			                </li>
+			                <li style="width:300px">
+			                    <h4>{{Lang::get('messages.indxHelLblCaracteristica3')}}</h4>
+			                </li>
+			                <li style="width:300px">
+			                    <h4>{{Lang::get('messages.indxHelLblCaracteristica4')}}</h4>
+			                </li>
+			                <li style="width:300px">
+			                    <h4>{{Lang::get('messages.indxHelLblCaracteristica5')}}</h4>
+			                </li>
+			           
+			            </ul>
+			        </div>
+				 	
+				 </div>
+   		</div>
+		<div class="container padding50">
+			<div class="row">
+				
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			
+
+				  <center class="logo_bienvenida"><img src="logo.png" data-scroll-reveal="enter bottom over .5s and move 50px" ></center>
+				
+
+				<div class="encabezado_texto head_largo" data-scroll-reveal="enter bottom over 1s and move 50px" >
+					<h1>{{Lang::get('messages.indxHelLblEncabezado')}}</h1>
+					<span>{{Lang::get('messages.indxHelLblDescripcion')}}</span>
+				</div>
+				<center><img src="img/mask.jpg" data-scroll-reveal="enter top over 1s and move 100px" ></center>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<div class="caja_info icono_sencillo" data-scroll-reveal="enter bottom over .3s and move 100px">
+								<div class="icono_caja">
+								<i class="fa fa-eye"></i>   
+							 </div>
+								<div class="info_caja_mask">
+									<h3>{{Lang::get('messages.indxHelLblSubTitulo')}}</h3>
+								<p class="justificar">{{Lang::get('messages.indxHelLblSubDescripcion')}}</p>
+							  
+
+							 </div>
+						 </div>
+						</div>
+						
+					 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<div class="caja_info icono_sencillo" data-scroll-reveal="enter bottom over .6s and move 100px">
+								<div class="icono_caja">
+								<i class="fa fa-fire"></i>   
+							 </div>
+								<div class="info_caja_mask">
+									<h3 style="text-transform:uppercase;">{{Lang::get('messages.indxHelLblSubTitulo1')}}</h3>
+								<p class="justificar">{{Lang::get('messages.indxHelLblSubDescripcion1')}}
+								 </p>
+							 </div>
+						 </div>
+						</div>
+						
+						
+					  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<div class="caja_info icono_sencillo" data-scroll-reveal="enter bottom over .9s and move 100px">
+								<div class="icono_caja">
+								<i class="fa fa-flash"></i>   
+							 </div>
+								<div class="info_caja_mask">
+									<h3 >{{Lang::get('messages.indxHelLblSubTitulo2')}}</h3>
+								<p class="justificar">{{Lang::get('messages.indxHelLblSubDescripcion2')}}</p>
+							 </div>
+						 </div>
+						</div>
+				
+		  </div>
+		</div>
+	</section-->
+	
+	
+
+	
+	<!--section class="zona_video" style="background-image: url(img/copas.png);
+		background-size: cover;">
+			 <<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ip1XNFCAACo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			 <video width="100%" height="100%" src="video/mask.mp4" controls="none"></video>
+	</section-->
+	<!--section class="unmask_section sec-mobile-ready">
+	   <div class="full-bg-position page-section-2 background-stretch" data-stellar-background-ratio="-.3"><span class="mask-color" style="background-color:#000;"></span></div> 
+		<div class="container">
+			<div class="row">
+				
+			  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+					<div class="text-block">
+					<div class="encabezado_texto head_largo left white bold"> <h1>{{Lang::get('messages.indxMovLblEncabezadoUnmask')}}</h1> </div>
+				  <p class="justificar">
+				  	{{Lang::get('messages.indxMov2LblDescripcion')}}
+				  </p> 
+					<p style="margin-left:12em"><em>{{Lang::get('messages.indxMov2LblFrase')}}</em></p>
+					<p style="margin-left:17em"><em> {{Lang::get('messages.indxMov2LblAutor')}}</em></p>
+				  </div>
+				</div>
+				
+			   <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+					<div class="unmask_personas">
+						<img src="img/tipo4.png" data-scroll-reveal="enter bottom over .3s and move 70px">
+				  </div>
+			   </div>
+				  
+		   </div>
+		</div>
+	</section-->

@@ -1,0 +1,100 @@
+.isHidden {
+	display: none !important;
+}
+
+.ul_relaciones li {
+	display: inline-block;
+}
+
+.ul_relaciones img {
+	height: 100px;
+	width: 100px;
+}
+
+/*.mask {
+	position: relative;
+}*/
+
+/*.footer_cuadro {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.puntaje {
+	max-height: 200px;
+	min-height: 20px;
+
+	height: 20px;
+	padding-left: 5px;
+	text-align: left;
+	width: 200px;
+}
+
+.puntaje:hover {
+	height: 200px;
+}
+
+.puntaje .votaciones {
+}
+
+.puntaje .votaciones .good {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.puntaje .votaciones .bad {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.puntaje .votaciones a {
+	display: block;
+}
+*/
+
+
+
+.busqueda {
+	position: relative;
+}
+
+.busqueda .busqueda-resultado {
+	border: 1px solid #999;
+	background-color: #DDD;
+	position: absolute;
+	height: 500px;
+	left: 0;
+	overflow: hidden;
+	overflow-y: scroll;
+	right: 0;
+	top: 35px;
+	z-index: 99;
+}
+
+.busqueda .busqueda-resultado .perfil {
+	border: 1px solid #AAA;
+	height: 80px;
+	margin: 0;
+	margin-bottom: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.busqueda .busqueda-resultado .perfil img {
+	border-right: 1px solid #AAA;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 90px;
+}
+
+.busqueda .busqueda-resultado .perfil span {
+	color: #333;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 80px;
+	max-width: 280px;
+}

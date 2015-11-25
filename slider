@@ -1,0 +1,56 @@
+<div id="slider_post_{{$post->idPost}}" class="reveal-modal" data-reveal style="width:90%">
+									<div class="titulo_barra">
+										<h2>GALERIA</h2>
+									</div>
+										<div class="slider_container" style="position: relative; top: 0px; left: 0px; width: 950px;
+										height: 456px; background: #191919; overflow: hidden;">
+
+											<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 356px; overflow: hidden;">
+											   @foreach($post->fotos as $foto)
+													<div>
+														<img u="image" data-id="{{$foto->idFotoPost}}" src="{{ URL::asset('img\\db_imgs\\posts\\'.$foto->foto) }} "/>
+														<img u="thumb" data-id="{{$foto->idFotoPost}}" class="foto-post-gallery" src="{{ URL::asset('img\\db_imgs\\posts\\'.$foto->foto) }}" />
+													</div>
+												@endforeach           
+											</div>
+
+											<div u="slides" style="position: absolute;right: 0; padding:0 5px; top: 0px; width: 290px; background-color:#FFF; height: 100%;">
+											   <div class="row foto-comment">
+											   		<div class="small-12 columns">
+											   			<textarea placeholder="Comentario..."></textarea>
+											   		</div>
+											   		<div class="small-12 columns">
+											   			<button type="button" class="btn-comentar button tiny expand" data-idpost="{{$post->idPost}}">Comentar</button>
+											   		</div>
+											   </div>
+											   <div class="row gv-comentarios">
+										   			@foreach($post->comentarios as $comentario)
+										   			<div class="small-12 columns">
+														<div class="comentario">
+											   				<label>{{$comentario->usuario}}</label>
+												   			<p>{{$comentario->comentario}}</p>
+												   			<span>{{$comentario->created_at}}</span>
+											   			</div>
+											   		</div>
+													@endforeach
+											   </div>
+											</div>
+										
+										
+											<span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 158px; left: 8px;">
+											</span>
+											<span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 158px; right: 350px">
+											</span>
+											
+											<div u="thumbnavigator" class="jssort01" style="position: absolute; width: 600px; height: 100px; left:0px; bottom: 0px;">
+											  
+												<div u="slides" style="cursor: move;">
+													<div u="prototype" class="p" style="position: absolute; width: 72px; height: 72px; top: 0; left: 0;">
+														<div class=w><div u="thumbnailtemplate" style=" width: 100%; height: 100%; border: none;position:absolute; top: 0; left: 0;"></div></div>
+														<div class=c>
+														</div>
+													</div>
+												</div>
+											</div>
+											<a style="display: none" href="">Image Slider</a>
+										</div>
